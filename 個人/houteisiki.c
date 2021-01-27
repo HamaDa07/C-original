@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h> /*absŠÖ”‚ğƒCƒ“ƒNƒ‹[ƒh*/
+#include<stdlib.h> /*absé–¢æ•°ã‚’ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰*/
 
 int keisan(int a,int b,int c);
 
@@ -8,13 +8,13 @@ int main(void)
 	int x,y,z;
 	int hikisuu;
 	
-	printf("x‚ÌŒW”‚ğ“ü—Í\n");
+	printf("xã®ä¿‚æ•°ã‚’å…¥åŠ›\n");
 	scanf("%d",&x);
 	
-	printf("‘æ“ñ€‚ğ“ü—Í\n");
+	printf("ç¬¬äºŒé …ã‚’å…¥åŠ›\n");
 	scanf("%d",&y);
 	
-	printf("‰E•Ó‚ğ“ü—Í\n");
+	printf("å³è¾ºã‚’å…¥åŠ›\n");
 	scanf("%d",&z);
 	
 	printf("%dx+(%d)=%d\n",x,y,z);
